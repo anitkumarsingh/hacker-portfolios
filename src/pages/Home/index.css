@@ -1,0 +1,51 @@
+.portfolio-wrapper {
+  overflow: hidden;
+  background-image: url('../../static/images/ipad_landscape.jpg');
+  background-position: top center;
+  height: 102vh;
+}
+
+.portfolio-frame {
+  /* margin: 220px auto 0 auto;
+  width: 644px;
+  height: 519px;
+  -webkit-perspective: 1400;
+  perspective: 1400; */
+  /* margin: 220px auto 0 auto;
+  width: 630px;
+  height: 487px;
+  -webkit-perspective: 1400;
+  perspective: 1400; */
+
+  margin: 232px auto 0 auto;
+  width: 662px;
+  height: 475px;
+}
+
+.portfolio-iframe {
+  /* margin: -30px 0 0 51px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  -webkit-transform: rotateX(13deg) rotateY(13deg) rotateZ(-18deg);
+  transform: rotateX(13deg) rotateY(13deg) rotateZ(-18deg); */
+  /* margin: -30px 0 0 51px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  transform: rotateX(13deg) rotateY(13deg) rotateZ(-18deg); */
+
+  /* margin: -30px 0 0 51px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  -webkit-transform: rotateX(13deg) rotateY(13deg) rotateZ(-18deg);
+  transform: rotateX(13deg) rotateY(13deg) rotateZ(-18deg); */
+
+  margin: -30px 0 0 34px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  transform: rotateX(18deg) rotateY(18deg) rotateZ(-18deg);
+  background: white;
+}
