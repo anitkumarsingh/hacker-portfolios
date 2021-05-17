@@ -8,7 +8,7 @@ const Home = () => {
   const findPortfolio = selectedPortfolios.find(
     (i) => i.id === `sp${randomIndex}`
   );
-  console.log('asdas', findPortfolio.link);
+
   return (
     <>
       <div className="portfolio-wrapper">
@@ -17,6 +17,7 @@ const Home = () => {
             className="portfolio-iframe"
             src={findPortfolio.link}
             title="portfolio"
+            onError={() => alert('Failed to load')}
           ></iframe>
         </div>
       </div>

@@ -18,7 +18,7 @@ const Header = () => {
         <span className="fas fa-bars" />
       </div>
       <div className="logo">
-        <SiReact /> Hacker Porfolio
+        <SiReact /> Hacker Portfolio
       </div>
       <div className="nav-items">
         <li>
