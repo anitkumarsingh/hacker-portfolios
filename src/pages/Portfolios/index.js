@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { portfolios } from '../../mocks';
 import IFrame from '../../components/IFrames';
+import NotFound from '../../static/images/not-found.png';
 
 const Portfolios = ({ location }) => {
   const [portfoliosData, setPortfoliosData] = useState(portfolios);
@@ -57,9 +58,12 @@ const Portfolios = ({ location }) => {
 
       <IFrame filterPortfolio={portfoliosData} votesCount={votesCount} />
       {portfoliosData.length === 0 && (
-        <p style={{ textAlign: 'center', marginBottom: '30px' }}>
-          No Result Found!
-        </p>
+        <>
+          <img src={NotFound} width="100%" height="auto" alt="not found" />
+          <p style={{ textAlign: 'center', marginBottom: '30px' }}>
+            <b>Sorry, No Result Found!</b>
+          </p>
+        </>
       )}
     </div>
   );
