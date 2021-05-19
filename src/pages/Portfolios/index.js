@@ -48,7 +48,7 @@ const Portfolios = ({ location }) => {
             className="sort-select-box"
           >
             <option value="asc">Ascending</option>
-            <option value="desc" defaultValue>
+            <option value="desc" selected>
               Descending
             </option>
           </select>
