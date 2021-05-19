@@ -4,7 +4,11 @@ import { SiHackerearth } from 'react-icons/si';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
-const Footer2 = () => {
+const Footer = ({ history }) => {
+  // const submitHandler = (e) => {
+  //   e.preventDefault();
+  //   history.push('/https://mail-list.vercel.app/');
+  // };
   return (
     <footer>
       <section className="footer-main">
@@ -26,7 +30,9 @@ const Footer2 = () => {
           <h2 className="footer-title">Resources</h2>
           <ul>
             <li>
-              <a href="#/">Docs</a>
+              <a href="https://mern-hacker-ranking-sys.herokuapp.com/doc">
+                Docs
+              </a>
             </li>
           </ul>
         </div>
@@ -34,7 +40,9 @@ const Footer2 = () => {
           <h2 className="footer-title">Contact</h2>
           <ul>
             <li>
-              <a href="#/">Help</a>
+              <a href="https://anitkumar-portfolio.firebaseapp.com/">
+                Portfolio
+              </a>
             </li>
           </ul>
         </div>
@@ -85,11 +93,11 @@ const Footer2 = () => {
           <li>
             <a href="#/">Privacy Policy</a>
           </li>
-          <li>© 2021 Design and Developed By Anit Kumar</li>
+          <li>© 2021 Design & Developed By Anit</li>
         </ul>
       </section>
     </footer>
   );
 };
 
-export default Footer2;
+export default Footer;
