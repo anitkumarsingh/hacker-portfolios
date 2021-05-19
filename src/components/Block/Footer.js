@@ -12,19 +12,13 @@ const Footer2 = () => {
           <h2 className="footer-title">About</h2>
           <ul>
             <li>
-              <Link to="/">
-                <a href="#/">Home</a>
-              </Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/portfolio">
-                <a href="#/">Portfolio</a>
-              </Link>
+              <Link to="/portfolio">Portfolio</Link>
             </li>
             <li>
-              <Link to="/favourites">
-                <a href="#/">Favourites</a>
-              </Link>
+              <Link to="/favourites">Favourites</Link>
             </li>
           </ul>
         </div>

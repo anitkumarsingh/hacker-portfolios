@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
 import { Link, useHistory } from 'react-router-dom';
 import { SiReact } from 'react-icons/si';
+import { BiMenuAltRight } from 'react-icons/bi';
+import { ImCross } from 'react-icons/im';
 
 const Header = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -15,7 +17,9 @@ const Header = () => {
   return (
     <nav className="sticky">
       <div className="menu-icon">
-        <span className="fas fa-bars" />
+        <span>
+          <BiMenuAltRight />
+        </span>
       </div>
       <div className="logo">
         <SiReact /> Hacker Portfolio
@@ -35,7 +39,7 @@ const Header = () => {
         <FaSearch style={{ color: 'white' }} />
       </div>
       <div className="cancel-icon">
-        <span className="fas fa-times" />
+        <ImCross />
       </div>
       <form onSubmit={submitHandler}>
         <input
@@ -45,7 +49,9 @@ const Header = () => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        <button type="submit" className="fas fa-search" />
+        <button type="submit">
+          <FaSearch style={{ color: 'white' }} />
+        </button>
       </form>
     </nav>
   );

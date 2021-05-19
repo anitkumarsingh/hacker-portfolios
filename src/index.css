@@ -82,13 +82,13 @@ nav form {
   display: flex;
   height: 40px;
   padding: 2px;
-  background: #1e232b;
+  background: rgba(128, 128, 128, 0.2);
   min-width: 18% !important;
   border-radius: 2px;
   border: 1px solid rgba(155, 155, 155, 0.2);
 }
 nav form .search-data {
-  width: 100%;
+  width: 85%;
   height: 100%;
   padding: 0 10px;
   color: #fff;
@@ -101,7 +101,7 @@ nav form button {
   padding: 0 15px;
   color: #fff;
   font-size: 17px;
-  background: #ff3d00;
+  background: #60d467;
   border: none;
   border-radius: 2px;
   cursor: pointer;
