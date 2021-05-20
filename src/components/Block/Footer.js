@@ -40,8 +40,12 @@ const Footer = ({ history }) => {
           <h2 className="footer-title">Contact</h2>
           <ul>
             <li>
-              <a href="https://anitkumar-portfolio.firebaseapp.com/">
-                Portfolio
+              <a
+                href="https://anitkumar-portfolio.firebaseapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Developer Portfolio
               </a>
             </li>
           </ul>
