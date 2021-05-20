@@ -49,7 +49,10 @@ const Footer = ({ history }) => {
         <div className="footer-main-item">
           <h2 className="footer-title">Newsletter</h2>
           <p>Subscribe to our newsletter.</p>
-          <form>
+          <form
+            action="https://mail-list.vercel.app/register?redirect=/"
+            target="_blank"
+          >
             <input
               type="email"
               name="email"
