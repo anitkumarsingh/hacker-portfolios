@@ -4,11 +4,7 @@ import { SiHackerearth } from 'react-icons/si';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
-const Footer = ({ history }) => {
-  // const submitHandler = (e) => {
-  //   e.preventDefault();
-  //   history.push('/https://mail-list.vercel.app/');
-  // };
+const Footer = () => {
   return (
     <footer>
       <section className="footer-main">
@@ -53,7 +49,7 @@ const Footer = ({ history }) => {
         <div className="footer-main-item">
           <h2 className="footer-title">Newsletter</h2>
           <p style={{ color: 'rgba(255,255,255,0.5)' }}>
-            Subscribe to our newsletter.
+            Subscribe to our newsletter
           </p>
           <form
             action="https://mail-list.vercel.app/register?redirect=/"
@@ -97,10 +93,14 @@ const Footer = ({ history }) => {
       <section className="footer-legal">
         <ul className="footer-legal-list">
           <li>
-            <a href="#/">Terms &amp; Conditions</a>
+            <a href="https://anitkumar-portfolio.firebaseapp.com/">
+              Terms &amp; Conditions
+            </a>
           </li>
           <li>
-            <a href="#/">Privacy Policy</a>
+            <a href="https://anitkumar-portfolio.firebaseapp.com/">
+              Privacy Policy
+            </a>
           </li>
           <li>© 2021 Design & Developed By Anit</li>
         </ul>

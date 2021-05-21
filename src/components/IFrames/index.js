@@ -3,7 +3,7 @@ import { FaStar } from 'react-icons/fa';
 
 const IFrame = ({ filterPortfolio, votesCount }) => {
   const htmlDoc = `<div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);">
-                   <p>This iFrame doesn't have link</p><br/>
+                   <p>This iFrame doesn't have link</p>
                   </div>`;
   return (
     <>
@@ -17,7 +17,6 @@ const IFrame = ({ filterPortfolio, votesCount }) => {
                   height="730px"
                   src={portfolio.link}
                   title={portfolio.name}
-                  onLoad={() => console.log('loading...')}
                   onError={() => alert('Failed to load')}
                 ></iframe>
               ) : (
@@ -27,7 +26,6 @@ const IFrame = ({ filterPortfolio, votesCount }) => {
                   src={portfolio.link}
                   srcDoc={htmlDoc}
                   title={portfolio.name}
-                  onLoad={() => console.log('loading...')}
                   onError={() => alert('Failed to load')}
                 ></iframe>
               )}

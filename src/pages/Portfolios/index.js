@@ -46,11 +46,10 @@ const Portfolios = ({ location }) => {
           <select
             onChange={(e) => setSortType(e.target.value)}
             className="sort-select-box"
+            defaultValue="desc"
           >
             <option value="asc">Ascending</option>
-            <option value="desc" selected>
-              Descending
-            </option>
+            <option value="desc">Descending</option>
           </select>
         </div>
         <br />
