@@ -41,7 +41,7 @@ body {
   background: #fff;
 }
 nav {
-  background: #171c24;
+  background: var(--primary, #171c24);
   display: flex;
   flex-wrap: wrap;
   align-items: center;

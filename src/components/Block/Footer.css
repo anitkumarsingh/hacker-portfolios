@@ -3,7 +3,7 @@ ul {
   padding: 0;
 }
 footer {
-  background-color: #555;
+  background-color: var(--bg-primary, #555);
   color: #bbb;
   line-height: 1.5;
 }
@@ -80,7 +80,7 @@ input[type='submit'] {
 /* Footer legal */
 .footer-legal {
   padding: 0.938rem 3.874rem;
-  background-color: #171c24;
+  background-color: var(--primary, #171c24);
 }
 .footer-legal-list {
   width: 100%;
