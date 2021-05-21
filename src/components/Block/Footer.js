@@ -52,7 +52,9 @@ const Footer = ({ history }) => {
         </div>
         <div className="footer-main-item">
           <h2 className="footer-title">Newsletter</h2>
-          <p>Subscribe to our newsletter.</p>
+          <p style={{ color: 'rgba(255,255,255,0.5)' }}>
+            Subscribe to our newsletter.
+          </p>
           <form
             action="https://mail-list.vercel.app/register?redirect=/"
             target="_blank"
