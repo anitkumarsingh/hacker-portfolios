@@ -284,7 +284,6 @@ nav .logo.space {
 }
 .flex-grid-item {
   flex-shrink: 0;
-
   flex-basis: 50%;
   flex-basis: 570px;
   display: flex;
@@ -292,7 +291,6 @@ nav .logo.space {
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-
   color: white;
   box-shadow: 5px 5px 25px 0 rgb(46 61 73 / 20%);
   border: 1px solid #e7e8ea;
@@ -300,6 +298,12 @@ nav .logo.space {
 @media screen and (max-width: 1219px) {
   .flex-grid-item {
     flex-grow: 0;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 745px) {
+  .flex-grid-item {
+    flex-grow: 0;
+    flex-basis: 100%;
   }
 }
 .blank {
