@@ -14,7 +14,7 @@ const IFrame = ({ filterPortfolio, votesCount }) => {
               {portfolio.link !== '' ? (
                 <iframe
                   width="600px"
-                  height="730px"
+                  height="780px"
                   src={portfolio.link}
                   title={portfolio.name}
                   onError={() => alert('Failed to load')}
@@ -30,15 +30,30 @@ const IFrame = ({ filterPortfolio, votesCount }) => {
                 ></iframe>
               )}
 
-              <div>
-                <div>
+              <div
+                style={{
+                  background: 'rgba(0, 0, 0, 0.2)',
+                  width: '100%',
+                  zIndex: '333',
+                  height: '50px'
+                }}
+                className="flex-container"
+              >
+                <div
+                  // style={{
+                  //   width: '30%',
+                  //   marginLeft: 'auto',
+                  //   marginRight: 'auto'
+                  // }}
+                  className="flex-item-left"
+                >
                   <a href={portfolio.link} target="_blank" rel="noreferrer">
                     <button className="btn btn--green btn--animated">
                       Go To Page
                     </button>
                   </a>
                 </div>
-                <div className="stars">
+                <div className="stars flex-item-right">
                   <FaStar
                     onClick={() =>
                       votesCount(`${portfolio.votes}`, `${portfolio.id}`)
