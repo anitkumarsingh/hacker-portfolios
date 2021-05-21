@@ -80,73 +80,85 @@ export const notPublishedPortolios = [
     id: 'pf17',
     name: 'Mern Shopping Cart',
     websiteName: 'mern-shopping-cart',
-    link: ''
+    link: '',
+    votes: 12
   },
   {
     id: 'pf18',
     name: 'nextjs-apollo-portfolio',
     websiteName: 'nextjs-apollo-portfolio',
-    link: ''
+    link: '',
+    votes: 0
   },
   {
     id: 'p1f9',
     name: 'redux-practice',
     websiteName: 'redux-practice ',
-    link: ''
+    link: '',
+    votes: 43
   },
   {
     id: 'pf24',
     name: 'Short-Front-End-Challenge',
     websiteName: 'Short-Front-End-Challenge',
-    link: ''
+    link: '',
+    votes: 87
   },
   {
     id: 'pf25',
     name: 'Replicated-Google-Login-Form',
     websiteName: 'Replicated-Google-Login-Form',
-    link: ''
+    link: '',
+    votes: 0
   },
   {
     id: 'p2',
     name: 'face-recongnition',
     websiteName: 'face-detection',
-    link: ''
+    link: '',
+    votes: 0
   },
   {
     id: 'p3',
     name: 'robots',
     websiteName: 'robots',
-    link: 'https://robots-friend.firebaseapp.com/'
+    link: 'https://robots-friend.firebaseapp.com/',
+    votes: 0
   },
   {
     id: 'p9',
     name: 'bank search app',
     websiteName: 'front-end-challenge-bank-search-app',
-    link: 'https://anitkumarsingh.github.io/Fyle-Challenge-Bank-Search-App/'
+    link: 'https://anitkumarsingh.github.io/Fyle-Challenge-Bank-Search-App/',
+    votes: 23
   },
   {
     id: 'p10',
     name: 'game ranking',
     websiteName: 'game ranking',
-    link: 'https://anitkumarsingh.github.io/Game-Ranking/'
+    link: 'https://anitkumarsingh.github.io/Game-Ranking/',
+    votes: 0
   },
   {
     id: 'p11',
     name: ' Slider-Front End React Challenge',
     websiteName: 'slider-frontend-react-challenge',
-    link: 'https://front-end-challenge-slider.netlify.com/'
+    link: 'https://front-end-challenge-slider.netlify.com/',
+    votes: 0
   },
   {
     id: 'p16',
     name: 'Talking-Street-React-Challenge',
     websiteName: 'Talking-Street-React-Challenge',
-    link: 'https://anitkumarsingh.github.io/Talking-Street-React-Challenge/'
+    link: 'https://anitkumarsingh.github.io/Talking-Street-React-Challenge/',
+    votes: 0
   },
   {
     id: 'p15',
     name: 'Research-Keyword-Tool',
     websiteName: 'Research-Keyword-Tool',
-    link: 'https://anitkumarsingh.github.io/Research-Keyword-Tool/'
+    link: 'https://anitkumarsingh.github.io/Research-Keyword-Tool/',
+    votes: 0
   }
 
   // {

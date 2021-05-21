@@ -12,7 +12,9 @@ const Portfolios = ({ location }) => {
   const votesCount = (vote, id) => {
     const count = Number(vote) + 1;
     // increase by one and send to server for storing
-    alert(`Vote count has been inceased from ${vote} to ${count}`);
+    alert(
+      `Vote count has been inceased from ${vote} to ${count} Ready for submission to server`
+    );
     console.log('count', count);
   };
 

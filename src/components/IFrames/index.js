@@ -39,20 +39,16 @@ const IFrame = ({ filterPortfolio, votesCount }) => {
                 }}
                 className="flex-container"
               >
-                <div
-                  // style={{
-                  //   width: '30%',
-                  //   marginLeft: 'auto',
-                  //   marginRight: 'auto'
-                  // }}
-                  className="flex-item-left"
-                >
-                  <a href={portfolio.link} target="_blank" rel="noreferrer">
-                    <button className="btn btn--green btn--animated">
-                      Go To Page
-                    </button>
-                  </a>
-                </div>
+                {portfolio.link !== '' && (
+                  <div className="flex-item-left">
+                    <a href={portfolio.link} target="_blank" rel="noreferrer">
+                      <button className="btn btn--green btn--animated">
+                        Go To Page
+                      </button>
+                    </a>
+                  </div>
+                )}
+
                 <div className="stars flex-item-right">
                   <FaStar
                     onClick={() =>

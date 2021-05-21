@@ -3,6 +3,14 @@ import { notPublishedPortolios } from '../../mocks';
 import IFrame from '../../components/IFrames';
 
 const Favourites = () => {
+  const votesCount = (vote, id) => {
+    const count = Number(vote) + 1;
+    // increase by one and send to server for storing
+    alert(
+      `Vote count has been inceased from ${vote} to ${count}. Ready for submission to server`
+    );
+    console.log('count', count);
+  };
   return (
     <>
       <div className="wrapper">
@@ -12,7 +20,10 @@ const Favourites = () => {
           </h3>
           <br />
         </div>
-        <IFrame filterPortfolio={notPublishedPortolios} votesCount={() => {}} />
+        <IFrame
+          filterPortfolio={notPublishedPortolios}
+          votesCount={votesCount}
+        />
       </div>
     </>
   );
