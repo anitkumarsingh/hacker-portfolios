@@ -4,7 +4,7 @@ ul {
 }
 footer {
   background-color: var(--bg-primary, #555);
-  color: #bbb;
+  color: var(--text-primary, #bbb);
   line-height: 1.5;
 }
 footer a {
